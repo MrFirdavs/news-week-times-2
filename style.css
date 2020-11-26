@@ -2,7 +2,6 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 
 body {
@@ -13,6 +12,8 @@ body {
     background-color: #131313;
     margin: 0;
     height: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 a, ul {
@@ -46,15 +47,17 @@ li {
     clear: both;
     height: 50px;
     position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .head-left2 {
-    float: left;
     margin-top: 6px;
 }
 
 .head-right2 {
-    float: right;
     border-left: 1px solid grey;
     padding: 13px;
 }
@@ -153,3 +156,282 @@ li {
     top: 85%;
 }
 
+.latest-news {
+    clear: both;
+}
+
+.img-news {
+    width: 280px;
+    height: 150px;
+}
+
+.latest-news-para {
+    width: 250px;
+    font-size: 20px;
+}
+
+.latest-news-para:hover, .late-news:hover {
+    color: red;
+    text-decoration: underline grey;
+}
+
+.latest-news {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.latest-news-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.funding {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.fund-para {
+    float: left;
+}
+
+.fund-info {
+    float: right;
+    margin-top: 8px;
+}
+
+.fund-a:hover {
+    color: red;
+}
+
+.funds {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-fund1, .inner-fund2, .inner-fund3, .inner-fund4 {
+    background-image: linear-gradient(#FF4422 50%, #FFEBE8 50%);
+    height: 100px;
+    width: 270px;
+    position: relative;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    margin: 0;
+}
+
+.logo-para1 {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    margin: 0;
+    font-size: 20px;
+}
+
+.logo-para2 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    margin: 0;
+    font-size: 20px;
+}
+
+.logo-para3 {
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    margin: 0;
+    color: #AC9E9C;
+}
+
+.fund1, .fund2, .fund3, .fund4 {
+    width: 270px;
+    margin-top: 20px;
+}
+
+.middle-part {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hard-fork {
+    width: 350px;
+}
+
+.imgs {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 350px;
+    position: relative;
+}
+
+.hard-fork-img {
+    background-image: linear-gradient(rgba(207, 145, 145, 0.5), rgba(0, 0, 0, 0.9)), url(./images/ElonMusk.jpg);
+}
+
+.app {
+    background-image: linear-gradient(rgba(207, 145, 145, 0.5), rgba(0, 0, 0, 0.9)), url(./images/maxresdefault.jpg);
+}
+
+.gear {
+    background-image: linear-gradient(rgba(207, 145, 145, 0.5), rgba(0, 0, 0, 0.9)), url(./images/Nature-trees_234_.jpeg);
+}
+
+.hard-fork-para1 {
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    margin: 0;
+    color: white;
+}
+
+.hard-fork-para2 {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    margin: 0;
+    font-size: 25px;
+    color: white;
+}
+
+.hard-fork-para3 {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    margin: 0;
+    color: #969797;
+}
+
+.foto {
+    width: 80px;
+    height: 80px;
+}
+
+.inner-paragraph {
+    width: 200px;
+    color: red;
+    font-size: 17px;
+}
+
+.paragraph {
+    float: left;
+}
+
+.inner-img {
+    float: right;
+}
+
+.latest {
+    margin-top: 2px;
+}
+
+.paragraphs {
+    margin-top: 90px;
+}
+
+.infos {
+    color: #828282;
+}
+
+.deal-img {
+    width: 270px;
+    height: 200px;
+}
+
+.deal-para {
+    width: 270px;
+    font-size: 18px;
+}
+
+.deal-para:hover {
+    color: red;
+}
+
+.deal-ctn2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.deals {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 150px;
+}
+
+.footer-icons {
+    height: 75px;
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer i {
+    color: white;
+    margin: 20px 15px 0 15px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(66, 60, 60);
+}
+.footer i:hover {
+    background-color: black;
+}
+
+.footer-li {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+}
+
+.footer-li li {
+    margin: 0 10px;
+}
+
+.footer-li li:hover {
+    color: white;
+}
+
+.footer2 {
+    height: 80px;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2 i {
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 94%;
+    margin: 0;
+    border-radius: 50%;
+    font-size: 30px;
+    border: 1px solid #1972F8;
+    padding: 10px;
+    background-color:  #1972F8;
+    position: fixed;
+}
+
+.footer2 span {
+    color: white;
+}
