@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0;
+}
+
+.head {
+    background-color: #131313;
+    margin: 0;
+    height: 40px;
+}
+
+a, ul {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #A7A7A7;
+}
+
+.head-a {
+    margin-left: 20px;
+}
+
+.white-a, .head-a:hover {
+    color: white;
+}
+
+li {
+    display: inline;
+}
+
+.head-left {
+    float: left;
+}
+
+.head-right {
+    float: right;
+    margin-right: 20px;
+}
+
+.head2 {
+    clear: both;
+    height: 50px;
+    position: sticky;
+}
+
+.head-left2 {
+    float: left;
+    margin-top: 6px;
+}
+
+.head-right2 {
+    float: right;
+    border-left: 1px solid grey;
+    padding: 13px;
+}
+
+.fa-search {
+    font-size: 20px;
+}
+
+.head2-a:hover, .head2-icon:hover {
+    color: black;
+}
+
+.head2-a {
+    margin-right: 20px;
+}
+
+.ctn {
+    width: 1350px;
+    margin: 0 auto;
+    background-color: #ECECEC;
+    padding-top: 10px;
+}
+
+.inner-ctn {
+    background-image: linear-gradient(rgba(247, 6, 6, 0.5), rgba(7, 7, 7, 0.9)), url(./images/tunnelnoe-myshlenie-chto-eto-takoe-i-kak-preodolet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 450px;
+    float: left;
+}
+
+.inner-ctn2 {
+    float: right;
+}
+
+.ctn-img {
+    background-image: linear-gradient(rgba(250, 11, 11, 0.5), rgba(0, 0, 0, 0.9)), url(./images/i.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 445px;
+    position: relative;
+}
+
+.ctn-img2 {
+    background-image: linear-gradient(rgba(218, 45, 45, 0.5), rgba(0, 0, 0, 0.9)), url(./images/img_20171103_201913.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 445px;
+    margin-top: 10px;
+    position: relative;
+}
+
+
+.paras {
+    position: absolute;
+    left: 2%;
+    margin: 0;
+    color: white;
+}
+
+.tnw-para {
+    font-size: 170px;
+    height: 200px;
+    top: 12%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.insight-para {
+    top: 46%;
+}
+
+.para {
+    font-size: 45px;
+    width: 700px;
+    top: 50%;
+}
+
+.icon-para {
+    top: 77%;
+}
+
+.aside-insight-para {
+    top: 32%;
+}
+
+.aside-para {
+    top: 43%;
+    font-size: 25px;
+    width: 350px;
+}
+
+.aside-icon-para {
+    top: 85%;
+}
+
